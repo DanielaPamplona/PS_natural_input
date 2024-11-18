@@ -1,0 +1,20 @@
+
+This package contains the source code to reproduce the planar to naturalistic transform described in [1].
+
+If you have problems running the code, please contact
+ Daniela Pamplona <pamplona@fias.uni-frankfurt.de>
+
+== Overview ==
+
+The folder functionsAux contains auxiliar functions like changing coordinates, convert radians to degrees etc.
+The file run_me.m is an exemplar of using this code, from loading the patch to project it into a sphere, and get the naturalistic input.
+
+== Software dependencies ==
+ 
+* Matlab R2012a (maybe works correctly in older versions)
+* Image Processing Toolbox for Matlab
+
+== References ==
+
+[1] Pamplona, Triesch, Rothkopf, 2013, Power spectra of the natural input to the visual system, Vision Research
+

@@ -1,0 +1,5 @@
+function [r_matrix,epsilon_matrix,chi_matrix] = img2angles(u_matrix,v_matrix,z_matrix,pixel_size,img_size)
+
+[x_matrix, y_matrix] = img2hom(u_matrix,v_matrix,[1 img_size(1)],[1 img_size(2)],pixel_size);
+
+[r_matrix, epsilon_matrix, chi_matrix] = projective2angles(x_matrix, y_matrix, z_matrix);

@@ -1,0 +1,3 @@
+function epsilon_matrix = ecc_mm2angles(r_matrix, dist_matrix)
+%%%%%%%%%epsilon in rad, r in mm%%%%%%%%%%%%
+epsilon_matrix = dist_matrix./(2*r_matrix);

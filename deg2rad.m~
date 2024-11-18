@@ -1,0 +1,2 @@
+function rad_matrix =  deg2rad(deg_matrix)
+    rad_matrix = deg_matrix*2*pi/360;

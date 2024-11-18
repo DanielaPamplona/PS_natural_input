@@ -1,0 +1,10 @@
+function MTF = get_MTF(epsilon,fx,fy)
+
+A1 = 0.1743;
+A2 = 0.0392;
+B1 = 0.0362;
+B2 = 0.0172;
+C1 = 0.215;
+C2 = 0.00294;
+fr = sqrt(fx.^2+fy.^2);
+MTF =  (1-C1+C2*epsilon)*exp(-A1*exp(A2*epsilon)*fr)+(C1-C2*epsilon)*exp(-B1*exp(B2*epsilon)*fr);
