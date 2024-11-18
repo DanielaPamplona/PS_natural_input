@@ -1,3 +1,0 @@
-function [x1,y1] = hom2int(x, y)
-y1 = -y;
-x1 = x;

@@ -1,3 +1,0 @@
-function [x,y] = int2hom(x1, y1)
-y = -y1;
-x = x1;
